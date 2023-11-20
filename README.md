@@ -7,9 +7,9 @@
 
 ## 目錄
 (root)
-> [DP](./DP/)
-> [math](./math/)
-> [Tree](./Tree/)
+> [DP](./DP/)  
+> [math](./math/)  
+> [Tree](./Tree/)  
 
 ## `Merge_sort.cpp`
 
