@@ -1,4 +1,4 @@
-/*
+
 
 
 .ET01.hide{
@@ -4951,7 +4951,8 @@ pre {
 }
 .markdown-body table tr {
   background-color:#fff;
-  border-top:1px solid #c6cbd1
+  border-top:1px solid #c6cbd1;
+  border-bottom:1px solid #c6cbd1;
 }
 .markdown-body table tr:nth-child(2n) {
   background-color:#f6f8fa
@@ -5345,4 +5346,3 @@ pre {
   background-color:#0000
 }
 
-*/
