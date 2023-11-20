@@ -15,4 +15,3 @@
 
 <script src="https://gist.github.com/KagariET01/77ef3442f972dec64522b39beb3b7884.js"></script>
 
-## ``
