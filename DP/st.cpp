@@ -46,7 +46,9 @@ INT query(INT l,INT r){
 
 
 //use
+#define endl '\n'
 int main(){
+	cin.tie(0);cout.tie(0);ios::sync_with_stdio(0);
 	INT m;
 	cin>>n>>m;
 	for(INT i=0;i<n;i++){
@@ -62,3 +64,4 @@ int main(){
 	}
 	return 0;
 }
+
