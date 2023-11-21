@@ -1,6 +1,6 @@
-/*
-樹直徑
-*/
+// [樹直徑.cpp]
+// 樹上最長距離
+
 #include<bits/stdc++.h>
 using namespace std;
 #define INT long long int

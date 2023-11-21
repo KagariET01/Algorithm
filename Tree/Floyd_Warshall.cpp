@@ -1,4 +1,6 @@
 // [Floyd_Warshall.cpp]
+// [未驗證]
+// 求任意兩點的最短距
 
 #include<bits/stdc++.h>
 using namespace std;

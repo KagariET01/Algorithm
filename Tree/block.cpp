@@ -1,13 +1,10 @@
+// [分塊.cpp]
 #include<bits/stdc++.h>
 using namespace std;
 #define INT long long int
-#define PII pair<INT,INT>
-#define maxs(a,b) a=max(a,b)
-#define mins(a,b) a=min(a,b)
 #define FN function<INT(INT,INT)>
 
 vector<INT> block;//分塊
-vector<INT> block_mark_add;//懶人標記，紀錄區間加值
 vector<INT> arr;//原始數列
 INT n;
 INT block_sz;
@@ -27,10 +24,8 @@ INT sqrt(INT n){
 
 void build(FN merge){
 	block.clear();
-	block_mark_add.clear();
-	block_sz=sqrt(n);
+	block_sz=300;
 	block.reserve(n/block_sz+1);
-	block_mark_add.reserve(n/block_sz+1);
 	INT nw=0;
 	for(INT i=0;i<n;i++){
 		if(!(i%block_sz)){
@@ -48,7 +43,7 @@ void modify(INT x,INT v,FN merge){
 	INT l=(x/block_sz)*block_sz;
 	INT r=l+block_sz;
 	arr[x]=v;
-	nw=0;
+	INT nw=0;
 	for(INT i=l;i<r;i++){
 		if(!(i%block_sz)){
 			nw=arr[i];
@@ -65,7 +60,7 @@ void modify_add(INT x,INT v,FN merge){
 	INT l=(x/block_sz)*block_sz;
 	INT r=l+block_sz;
 	arr[x]+=v;
-	nw=0;
+	INT nw=0;
 	for(INT i=l;i<r;i++){
 		if(!(i%block_sz)){
 			nw=arr[i];
@@ -99,23 +94,4 @@ INT query(INT l,INT r,FN merge){
 	return re;
 }
 
-FN merge=[](INT a,INT b){return max(a,b);};
-
-
-
-int main(){
-	cin>>n;
-	arr.reserve(n);
-	for(INT i=0;i<n;i++){
-		arr.push_back(read(INT));
-	}
-	build(merge);
-	INT q=read(INT);
-	while(q--){
-		INT l,r;
-		cin>>l>>r;
-		if(l>r)swap(l,r);
-		l--,r--;
-		cout<<query(l,r,merge)<<endl;
-	}
-}
+FN merger=[](INT a,INT b){return max(a,b);};

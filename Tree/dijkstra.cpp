@@ -1,3 +1,6 @@
+// [dijkstra.cpp]
+// 求從a點到其他點的最短距離
+
 #include<bits/stdc++.h>
 using namespace std;
 #define INT long long int
@@ -41,4 +44,3 @@ void dijkstra(INT st){
 		vis[nw]=1;
 	}
 }
-

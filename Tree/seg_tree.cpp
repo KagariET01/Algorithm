@@ -1,6 +1,6 @@
-/*
-線段樹
-*/
+// [線段樹.cpp]
+// [半驗證]
+
 #include<bits/stdc++.h>
 using namespace std;
 #define INT long long int

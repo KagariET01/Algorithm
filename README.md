@@ -11,13 +11,18 @@
 > [math](./math/)  
 > [Tree](./Tree/)  
 
+## `basic.cpp`
+
+<script src="https://gist.github.com/KagariET01/0dd5c54820a8db12e8ec4d3b10a34682.js"></script>
+
 ## `Merge_sort.cpp`
 
 <script src="https://gist.github.com/KagariET01/a1cdcd6bc9d428112046f1f7dc583df7.js"></script>
 
+## `st.cpp`
+st表
 
-
-
+<script src="https://gist.github.com/KagariET01/a3c60a4bc67ff2a633e6f9c3ba2d3fcb.js"></script>
 
 
 

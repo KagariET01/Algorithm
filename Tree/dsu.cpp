@@ -1,3 +1,6 @@
+// [dsu.cpp]
+// 並查集
+
 #include<bits/stdc++.h>
 using namespace std;
 #define INT long long int
