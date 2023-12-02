@@ -24,7 +24,10 @@ st表
 
 <script src="https://gist.github.com/KagariET01/a3c60a4bc67ff2a633e6f9c3ba2d3fcb.js"></script>
 
+## `fixed.cpp`
+C++ fixed 用法
 
+<script src="https://gist.github.com/KagariET01/fd925f825b055630d749d9fd0a51f513.js"></script>
 
 
 
